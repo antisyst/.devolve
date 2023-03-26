@@ -1,0 +1,90 @@
+.first-showcase_item {
+    width: 46%;
+    margin: 5px;
+}
+.custom_element-showcase {
+    height: 95vh;
+    padding: 10px 5%;
+    background: url(../assets/forth-asset.png);
+    margin-bottom: 8vh;
+}
+.first-showcase_item img {
+    width: 100%;
+}
+.first-showcase_item p {
+    font-size: calc(10px + 1.5vmin);
+}
+.first-showcase_item h1 {
+    font-size: calc(10px + 6vmin);
+}
+.inline-element-showcase-nth {
+    height: 94vh;
+    flex-wrap: wrap;
+    display: flex;
+}
+.custom-buttons-cont {
+    text-align: center;
+    margin-top: -10vh;
+}
+.custom-buttons-cont a {
+    padding: 18px 33px;
+    border-radius: 30px;
+    margin-top: -4vh;
+    transition: all 0.4s ease-out;
+    margin: 5px 6px;
+    font-size: 21px;
+    background: var(--var-color-component-advanced);
+    color: var(--var-color-component-white);
+}
+.custom-buttons-cont a:hover {
+    background: var(--var-color-component-hover);
+}
+
+
+
+
+
+.custom-nav-element {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background: var(--var-color-component-white);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+@media screen and (max-width: 800px)  {
+    .custom-extended-component {
+        width: 100%;
+    }
+    .inline-element-showcase-nth {
+        height: 94vh;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .custom_element-showcase {
+        height: 95vh;
+        padding: 10px 0;
+        background: url(../assets/forth-asset.png);
+        margin-bottom: 17vh;
+    }
+    .first-showcase_item {
+        width: 100%;
+        margin: 5px;
+    }
+    .first-showcase_item h1 {
+        font-size: calc(10px + 9vmin);
+        padding-top: 20vh;
+    }
+    .first-showcase_item img {
+        width: 100%;
+        padding-bottom: 30vh;
+    }
+    .first-showcase_item p {
+        font-size: calc(10px + 2vmin);
+    }
+    .custom-buttons-cont {
+        text-align: center;
+        margin-top: 5vh;
+    }
+}
